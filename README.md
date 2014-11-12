@@ -21,7 +21,7 @@ Instructions
 		* an identification number
 		* a number in parenthesis indicating the number of users in the island
 		* the list of users in the island
-	4. The program will now prompt the user for an island to infect. **This indirectly implements the optional method of infecting _exactly_ a given number of users since whoever is running the program can simply refrain from choosing an island if none of them have the desired size.**
+	4. The program will now prompt the user for an island to infect. **This indirectly implements the optional task of infecting _exactly_ a given number of users since whoever is running the program can simply refrain from choosing an island if none of them have the desired size.**
 	5. Finally, the program will infect one of the users in the selected island, allow the infection to propagate to the other users in the island, and then display the list of infected users
 
 Example run of total_infection:  
