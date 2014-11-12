@@ -10,18 +10,18 @@ or
 Instructions
 -----------
 * `total_infection`
-	1. The program will prompt for a text file containing user information (e.g., `test1.txt). This will be used to construct the list of users.
+	1. The program will prompt for a text file containing user information (e.g., test1.txt). This will be used to construct the list of users.
 	2. When all of the user information is read in, the program will display the information
 	3. The program will then prompt for the id of a user to infect
 	4. After infecting the selected user and allowing the infection to spread, the program will list the id's of all infected users
 * `limited_infection`
-	1. The program will prompt for a text file containing user information (e.g., `test1.txt). This will be used to construct the list of users.
+	1. The program will prompt for a text file containing user information (e.g., test1.txt). This will be used to construct the list of users.
 	2. When all of the user information is read in, the program will display the information
 	3. The program will also display the list of all islands (see section "islands" in the notes below). Each island will have:
 		* an identification number
 		* a number in parenthesis indicating the number of users in the island
 		* the list of users in the island
-	4. The program will now prompt the user for an island to infect. This indirectly implements the optional method of infecting _exactly_ a given number of users since whoever is running the program can simply refrain from choosing an island if none of them have the desired size.
+	4. The program will now prompt the user for an island to infect. **This indirectly implements the optional method of infecting _exactly_ a given number of users since whoever is running the program can simply refrain from choosing an island if none of them have the desired size.**
 	5. Finally, the program will infect one of the users in the selected island, allow the infection to propagate to the other users in the island, and then display the list of infected users
 
 Example run of total_infection:  
