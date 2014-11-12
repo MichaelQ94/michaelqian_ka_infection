@@ -88,7 +88,7 @@ int main()
 	unsigned int infect_island;
 	cout << endl << "Select an island to infect:" << endl;
 	while(!(cin >> infect_island) || infect_island < 1
-		|| infect_island >= islands[infect_island-1].size())
+		|| infect_island > islands.size())
 	{
 		cout << "Invalid island number. Please try again:" << endl;
 		cin.clear();
